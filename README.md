@@ -11,22 +11,22 @@ A estrutura do projeto foi organizada de forma modular, separando as classes em 
 ---
 
 ## Estrutura do Projeto
-meu-projeto/
-│
-├── src/
-│ ├── app/
-│ │ └── Main.java # Classe principal
-│ │
-│ └── model/
-│ ├── Pessoa.java # Classe abstrata base
-│ ├── Fornecedor.java # Subclasse de Pessoa
-│ ├── Empregado.java # Classe abstrata
-│ ├── Operario.java # Subclasse de Empregado
-│ └── Vendedor.java # Subclasse de Empregado
-│
-├── README.md # Documentação
-└── .gitignore # Arquivos ignorados pelo Git
-
+```
+    meu-projeto/
+    │
+    ├── src/
+    │ ├── app/
+    │ │ └── Main.java # Classe principal
+    │ │
+    │ └── model/
+    │ ├── Pessoa.java # Classe abstrata base
+    │ ├── Fornecedor.java # Subclasse de Pessoa
+    │ ├── Empregado.java # Classe abstrata
+    │ ├── Operario.java # Subclasse de Empregado
+    │ └── Vendedor.java # Subclasse de Empregado
+    │
+    ├── README.md # Documentação
+    └── .gitignore # Arquivos ignorados pelo Git```
 
 ---
 
