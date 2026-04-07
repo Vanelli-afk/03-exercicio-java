@@ -1,3 +1,5 @@
+package model;
+
 public class Fornecedor extends Pessoa {
     private double valorDivida;
     private double valorCredito;

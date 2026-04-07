@@ -1,3 +1,5 @@
+package model;
+
 public class Vendedor extends Empregado {
     private double valorVendas;
     private double comissao;

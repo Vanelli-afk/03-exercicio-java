@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Empregado extends Pessoa {
     private int codigoSetor;
     private double salarioBase;

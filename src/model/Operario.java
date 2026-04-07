@@ -1,3 +1,5 @@
+package model;
+
 public class Operario extends Empregado {
     private double valorHoraExtra;
     private double horasExtras;
