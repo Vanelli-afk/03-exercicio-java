@@ -6,15 +6,17 @@ import java.util.ArrayList;
 
 public class Main {
 	public static void main(String[] args) {
-        ArrayList<Pessoa> empresa = new ArrayList<>();
+        ArrayList<Pessoa> empresa = Empacotamento.lerArquivoBinario("empresa.dat");
         Scanner scan = new Scanner(System.in);
         int opcao;
-        
-        do{
-            opcao = menu(scan);
-            escolhaMenu(opcao, scan, empresa);
-        }while(opcao != 5);
-        
+        try { 
+            do{
+                opcao = menu(scan);
+                escolhaMenu(opcao, scan, empresa);
+            }while(opcao != 5);
+        } finally {    
+            Empacotamento.gravaArquivoBinario(empresa, "empresa.dat");
+        }
     }
     
     public static int menu(Scanner scan){
