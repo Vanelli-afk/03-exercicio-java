@@ -25,6 +25,8 @@ A estrutura do projeto foi organizada de forma modular, separando as classes em 
     │ ├── Operario.java # Subclasse de Empregado
     │ └── Vendedor.java # Subclasse de Empregado
     │
+    │ ├── util/
+    │ ├── Empacotamento.java # Classe de serialização
     ├── README.md # Documentação
     └── .gitignore # Arquivos ignorados pelo Git
 ```
